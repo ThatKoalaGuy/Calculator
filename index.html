@@ -3,56 +3,58 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="script.js"></script>
+		<script src="script.js" defer></script>
 		<link rel="stylesheet" href="style.css" />
 		<title>Calcualtor</title>
 	</head>
 	<body>
 		<div class="calculator">
-			<div class="display">1234567890</div>
+			<div class="display"></div>
 
 			<div class="break"></div>
 
 			<div class="container">
-				<button>AC</button>
-				<button>+/-</button>
-				<button>%</button>
-				<button>/</button>
+				<button id="ac">AC</button>
+				<!-- <button>+/-</button> -->
+				<button class="smiley">(=</button>
+				<button class="operations">%</button>
+				<button class="operations">/</button>
 			</div>
 
 			<div class="break"></div>
 
 			<div class="container">
-				<button>9</button>
-				<button>8</button>
-				<button>7</button>
-				<button>*</button>
+				<button class="numbers">9</button>
+				<button class="numbers">8</button>
+				<button class="numbers">7</button>
+				<button class="operations">*</button>
 			</div>
 
 			<div class="break"></div>
 
 			<div class="container">
-				<button>6</button>
-				<button>5</button>
-				<button>4</button>
-				<button>-</button>
+				<button class="numbers">6</button>
+				<button class="numbers">5</button>
+				<button class="numbers">4</button>
+				<button class="operations">-</button>
 			</div>
 
 			<div class="break"></div>
 
 			<div class="container">
-				<button>3</button>
-				<button>2</button>
-				<button>1</button>
-				<button>+</button>
+				<button class="numbers">3</button>
+				<button class="numbers">2</button>
+				<button class="numbers">1</button>
+				<button class="operations">+</button>
 			</div>
 
 			<div class="break"></div>
 
 			<div class="container">
-				<button class="zero lastrow">0</button>
-				<button class="lastrow">.</button>
-				<button class="lastrow">=</button>
+				<button class="zero lastrow numbers">0</button>
+				<!-- <button class="lastrow">.</button> -->
+				<button class="lastrow smiley">;)</button>
+				<button class="lastrow" id="equals">=</button>
 			</div>
 		</div>
 	</body>
