@@ -67,7 +67,6 @@ operations.forEach((operation) => {
 		}
 
 		operator = operation.textContent;
-		console.log(operation);
 		display.textContent = operation.textContent;
 		displayValue = '';
 	});
